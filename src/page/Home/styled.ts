@@ -575,6 +575,52 @@ const Content = styled.div<ModalContainerProps>`
         `};
 
   transition: transform 0.3s ease-in-out;
+
+  @media (max-width: 700px) {
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+    border: 20px solid #000;
+
+    div {
+      width: 120px;
+      height: 120px;
+
+      top: calc(50% - 55px);
+      left: calc(50% - 55px);
+    }
+
+    ${({ open }) =>
+      open
+        ? css`
+            transform: translate(-50%, -80%);
+          `
+        : css`
+            transform: translate(-50%, -50%);
+          `};
+  }
+
+  @media (max-width: 510px) {
+    width: 32rem;
+    height: 32rem;
+
+    div {
+      width: 11.5rem;
+      height: 11.5rem;
+
+      top: calc(50% - 45px);
+      left: calc(50% - 45px);
+      box-shadow: 0 0 0 15px black;
+    }
+
+    &::after {
+      top: calc(50%);
+      left: 0;
+      width: 100%;
+      height: 20px;
+      background: #000;
+    }
+  }
 `;
 
 const Logo = styled.img`
@@ -587,8 +633,8 @@ const ModalDetailsContainer = styled.div<ModalContainerProps>`
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 550px;
-  height: 550px;
+  width: 55rem;
+  height: 55rem;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px 2px black;
@@ -611,6 +657,37 @@ const ModalDetailsContainer = styled.div<ModalContainerProps>`
     css`
       opacity: 0.85;
     `};
+
+  @media (max-width: 700px) {
+    width: 480px;
+    height: 480px;
+
+    ${({ open }) =>
+      open
+        ? css`
+            transform: translate(-50%, -25%);
+            box-shadow: -13px 3px 6px #00000029;
+          `
+        : css`
+            transform: translate(0);
+          `};
+  }
+
+  @media (max-width: 510px) {
+    width: 40rem;
+    height: 45rem;
+    padding: 0 0.2rem;
+
+    ${({ open }) =>
+      open
+        ? css`
+            transform: translate(-50%, -20%);
+            box-shadow: -13px 3px 6px #00000029;
+          `
+        : css`
+            transform: translate(0);
+          `};
+  }
 `;
 
 const ModalDetailsContent = styled.div`
@@ -647,6 +724,20 @@ const ModalDetailsContent = styled.div`
     border: none;
     background: none;
     font-size: 2rem;
+  }
+
+  @media (max-width: 700px) {
+    img {
+      width: 30rem;
+      height: 30rem;
+    }
+  }
+
+  @media (max-width: 510px) {
+    img {
+      width: 25rem;
+      height: 25rem;
+    }
   }
 `;
 
