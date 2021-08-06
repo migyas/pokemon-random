@@ -706,6 +706,7 @@ const ModalDetailsContent = styled.div`
 
   h2 {
     font-size: 3rem;
+    padding: 1rem;
     text-transform: capitalize;
   }
 
