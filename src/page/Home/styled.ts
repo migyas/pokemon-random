@@ -508,8 +508,8 @@ const Container = styled.div<ContainerProps>`
 `;
 
 const Content = styled.div<ModalContainerProps>`
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   background: #fff;
   border-radius: 50%;
   border: 20px solid #000;
