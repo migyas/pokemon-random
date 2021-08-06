@@ -141,6 +141,370 @@ const Container = styled.div<ContainerProps>`
         rgba(9, 121, 22, 1) 76%
       );
     `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'grass' &&
+    pokemonTypes[1] === 'poison' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, rgba(9, 121, 22, 1) 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'bug' &&
+    pokemonTypes[1] === 'poison' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, greenyellow 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ghost' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, #fff 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ghost' &&
+    pokemonTypes[1] === 'dark' &&
+    css`
+      background: linear-gradient(165deg, #000494 0%, #fff 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ghost' &&
+    pokemonTypes[1] === 'grass' &&
+    css`
+      background: linear-gradient(165deg, rgba(9, 121, 22, 1) 0%, #fff 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'bug' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, greenyellow 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'steel' &&
+    pokemonTypes[1] === 'rock' &&
+    css`
+      background: linear-gradient(165deg, brown 0%, #6a261a 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dark' &&
+    pokemonTypes[1] === 'ice' &&
+    css`
+      background: linear-gradient(165deg, silver 0%, #000494 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'rock' &&
+    css`
+      background: linear-gradient(165deg, brown 0%, blue 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ground' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, yellowgreen 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'grass' &&
+    pokemonTypes[1] === 'dark' &&
+    css`
+      background: linear-gradient(165deg, #000494 0%, green 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'bug' &&
+    pokemonTypes[1] === 'grass' &&
+    css`
+      background: linear-gradient(165deg, green 0%, greenyellow 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'rock' &&
+    pokemonTypes[1] === 'fairy' &&
+    css`
+      background: linear-gradient(165deg, pink 0%, brown 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ground' &&
+    pokemonTypes[1] === 'steel' &&
+    css`
+      background: linear-gradient(165deg, #6a261a 0%, yellowgreen 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'rock' &&
+    pokemonTypes[1] === 'dragon' &&
+    css`
+      background: linear-gradient(165deg, #517e38 0%, brown 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'electric' &&
+    css`
+      background: linear-gradient(165deg, yellow 0%, blue 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'poison' &&
+    pokemonTypes[1] === 'dragon' &&
+    css`
+      background: linear-gradient(165deg, #517e38 0%, purple 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'fire' &&
+    pokemonTypes[1] === 'ghost' &&
+    css`
+      background: linear-gradient(165deg, #fff 0%, orange 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'grass' &&
+    pokemonTypes[1] === 'ice' &&
+    css`
+      background: linear-gradient(165deg, silver 0%, green 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dragon' &&
+    pokemonTypes[1] === 'fire' &&
+    css`
+      background: linear-gradient(165deg, orange 0%, #517e38 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dragon' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, #517e38 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dragon' &&
+    pokemonTypes[1] === 'ice' &&
+    css`
+      background: linear-gradient(165deg, silver 0%, #517e38 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'steel' &&
+    pokemonTypes[1] === 'psychic' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, #6a261a 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'fire' &&
+    pokemonTypes[1] === 'normal' &&
+    css`
+      background: linear-gradient(165deg, gray 0%, orange 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ghost' &&
+    pokemonTypes[1] === 'poison' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, #fff 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'fire' &&
+    pokemonTypes[1] === 'bug' &&
+    css`
+      background: linear-gradient(165deg, greenyellow 0%, orange 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'steel' &&
+    pokemonTypes[1] === 'ghost' &&
+    css`
+      background: linear-gradient(165deg, #fff 0%, #6a261a 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'grass' &&
+    pokemonTypes[1] === 'fairy' &&
+    css`
+      background: linear-gradient(165deg, pink 0%, green 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'normal' &&
+    pokemonTypes[1] === 'psychic' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, gray 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dark' &&
+    pokemonTypes[1] === 'dragon' &&
+    css`
+      background: linear-gradient(165deg, #517e38 0%, #000494 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'bug' &&
+    css`
+      background: linear-gradient(165deg, greenyellow 0%, blue 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ground' &&
+    pokemonTypes[1] === 'ghost' &&
+    css`
+      background: linear-gradient(165deg, #fff 0%, yellowgreen 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'normal' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, gray 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'rock' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, brown 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'steel' &&
+    css`
+      background: linear-gradient(165deg, #6a261a 0%, blue 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'dragon' &&
+    css`
+      background: linear-gradient(165deg, #517e38 0%, blue 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'bug' &&
+    pokemonTypes[1] === 'rock' &&
+    css`
+      background: linear-gradient(165deg, brown 0%, greenyellow 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'poison' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, blue 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dark' &&
+    pokemonTypes[1] === 'psychic' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, #000494 76%);
+    `}
+
+  ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ground' &&
+    pokemonTypes[1] === 'rock' &&
+    css`
+      background: linear-gradient(165deg, brown 0%, yellowgreen 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dragon' &&
+    pokemonTypes[1] === 'fighting' &&
+    css`
+      background: linear-gradient(165deg, burlywood 0%, #517e38 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'electric' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, yellow 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ice' &&
+    pokemonTypes[1] === 'psychic' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, silver 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'normal' &&
+    pokemonTypes[1] === 'grass' &&
+    css`
+      background: linear-gradient(165deg, green 0%, gray 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'dark' &&
+    css`
+      background: linear-gradient(165deg, #000494 0%, blue 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'fairy' &&
+    css`
+      background: linear-gradient(165deg, pink 0%, blue 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'ground' &&
+    pokemonTypes[1] === 'electric' &&
+    css`
+      background: linear-gradient(165deg, yellow 0%, yellowgreen 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'fire' &&
+    pokemonTypes[1] === 'flying' &&
+    css`
+      background: linear-gradient(165deg, blueviolet 0%, orange 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'fire' &&
+    pokemonTypes[1] === 'ground' &&
+    css`
+      background: linear-gradient(165deg, yellowgreen 0%, orange 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'water' &&
+    pokemonTypes[1] === 'psychic' &&
+    css`
+      background: linear-gradient(165deg, purple 0%, blue 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'rock' &&
+    pokemonTypes[1] === 'dark' &&
+    css`
+      background: linear-gradient(165deg, #000494 0%, brown 76%);
+    `}
+
+    ${({ pokemonTypes }) =>
+    pokemonTypes[0] === 'dragon' &&
+    pokemonTypes[1] === 'electric' &&
+    css`
+      background: linear-gradient(165deg, yellow 0%, #517e38 76%);
+    `}
 `;
 
 const Content = styled.div<ModalContainerProps>`
