@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
+import Home from './page/Home';
 import GlobalStyle from './style/global';
 
 const App: React.FC = () => (
   <>
-    <Header />
+    <Home />
     <GlobalStyle />
   </>
 );
