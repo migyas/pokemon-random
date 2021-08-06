@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   Content,
@@ -29,8 +29,6 @@ const Home: React.FC = () => {
       setPokemonTypes(types);
       setPokemon(response.data);
       setLoading(false);
-      console.log(response.data);
-      console.log(types);
     } catch (e) {
       throw new Error(e);
     }
